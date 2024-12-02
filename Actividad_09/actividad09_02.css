@@ -1,0 +1,18 @@
+p.tr{
+    border: 3px solid blue;
+    margin: 25px;
+}
+
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    margin: 25px;
+}
+
+#especial{
+    border-bottom: dashed;
+    border-top:dotted;
+    border-left: inset;
+    border-right:groove ;
+}

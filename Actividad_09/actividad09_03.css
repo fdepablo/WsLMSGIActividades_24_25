@@ -1,0 +1,10 @@
+h1{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    margin: 5px;
+}
+
+ul{
+    list-style-image: url(img/ethereal_icons_14861.png);
+}

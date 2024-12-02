@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+
+<!--
+Formulario de Pedido de Pizza
+Realizar el siguiente formulario para realizar un pedido de una pizza.
+-->
+
+<h1>Pizza Order</h1>
+<!-- Información del Cliente:-->
+<h2>Información del Cliente:</h2>
+
+<!--Todos los campos tienen que tener el atributo "type" lo más adecuado a su función 
+(text, number, email, etc.). Además, tienen que tener el atributo "placeholder" con su descripción.-->
+<form action="procesarPeticion.jsp" method="post">
+
+    <!-- Nombre completo, será un input que tiene que estar obligatoriamente relleno: -->
+    <label for="nc">Nombre Completo: </label>
+    <input id="nc" type="text" name="Nombre_Completo" placeholder="Escriba su Nombre Completo" required/>	
+    <br/>
+
+    <!-- Password, será un input con la información oculta: -->
+    <label for="Password">Password: </label>
+    <input id="Password" type="password" name="Password" placeholder="Escriba su Password">	
+    <br/>
+
+   
+    <!-- Dirección de entrega, será un input que tiene que estar obligatoriamente relleno:-->
+    <label for="Dirección">Dirección: </label>
+    <input id="Dirección" type="text" name="Dirección" placeholder="Escriba su Dirección" required/>	
+    <br/>
+
+    <!-- Número de teléfono, será un input que tiene que estar obligatoriamente relleno:-->
+    <label for="telefono">Número de teléfono: </label>
+    <input id="telefono" type="tel" name="telefono" placeholder="Escriba su número de telefono" required/>
+    <br/>
+
+    <!-- Correo electrónico:-->
+    <label for="email">Correo electrónico: </label>
+    <input id="email" type="email" name="email" placeholder="Escriba su Correo"/>
+    <br/>
+
+    <!-- Edad, será un input que tiene que estar obligatoriamente relleno:-->
+    <label for="edad">Edad: </label>
+    <input id="edad" type="number" name="edad"/>
+    <br/>
+
+    <h2>Información del Pedido:</h2>
+
+    <!-- Pedido de Pizza:
+
+        Tamaño de la pizza, será un tipo "radio", solamente admite un tipo:
+        Pequeña (8 pulgadas)
+        Mediana (12 pulgadas)
+        Grande (16 pulgadas)
+        -->
+
+
+    <label for="tamaño_pizza">Tamaño de la pizza: </label>
+    <br />	
+    <input type="radio" name="tamaño_pizza" value="P" />Pequeña<br />	
+    <input type="radio" name="tamaño_pizza" value="M" />Mediana<br />	
+    <input type="radio" name="tamaño_pizza" value="G" />Grande<br />	
+    <br/>
+
+    <!-- Elija su tipo de masa, será un tipo "radio", solamente admite un tipo ("Masa fina" valor 
+        por defecto seleccionado):-->
+
+        <label for="tamaño_masa">Tipo de masa: </label>
+        <br />	
+        <input type="radio" name="tamaño_masa" value="F" />Fina<br />	
+        <input type="radio" name="tamaño_masa" value="N" />Normal<br />	
+        <input type="radio" name="tamaño_masa" value="G" />Gruesa<br />	
+        <br/>
+
+    <!-- Selecciona tus ingredientes (Puedes elegir múltiples):
+
+        Pepperoni
+        Judías verdes
+        Jamón
+        Alcaparras
+        Aceitunas
+        Cebolla
+        Salchicha
+        Piña
+    -->
+
+    <label for="ingredientes">Tipo de masa: </label>
+    <br />
+    <input type="checkbox" name="ingredientes" value="Pepperoni"/>Pepperoni<br />	
+    <input type="checkbox" name="ingredientes" value="Judías verdes"/>Judías verdes<br />	
+    <input type="checkbox" name="ingredientes" value="Jamón"/>Jamón<br />
+    <input type="checkbox" name="ingredientes" value="Alcaparras"/>Alcaparras<br />	
+    <input type="checkbox" name="ingredientes" value="Aceitunas"/>Aceitunas<br />	
+    <input type="checkbox" name="ingredientes" value="Cebolla"/>Cebolla<br />
+    <input type="checkbox" name="ingredientes" value="Salchicha"/>Salchicha<br />	
+    <input type="checkbox" name="ingredientes" value="Piña" />Piña<br />
+    <br/>
+
+    <!-- Elija su salsa, será un tipo "radio", solamente admite un tipo ("Tomate" valor por defecto seleccionado):
+    Tomate
+    Barbacoa
+    Pesto
+    Sin salsa
+    -->
+
+    <label for="tipo_salsa">Tipo de salsa: </label>
+    <br />	
+    <input type="radio" name="tipo_salsa" value="T" checked/>Tomate<br />	
+    <input type="radio" name="tipo_salsa" value="B" />Barbacoa<br />	
+    <input type="radio" name="tipo_salsa" value="P" />Pesto<br />	
+    <input type="radio" name="tipo_salsa" value="S" />Sin salsa<br />	
+    <br/>
+<!--Instrucciones Especiales:
+Por favor, proporcione cualquier instrucción especial o comentario adicional sobre su pedido, que será un tipo "textarea":-->
+    <label for="textarea">Instrucciones Especiales: </label>
+    <br />	
+    <textarea style="resize: none;" rows="5" cols="80" name="textarea"></textarea>
+    <br/>
+    <br/>
+<!-- Método de Pago:
+
+Método de pago, en este caso debe de ser un "select" y por defecto deberá estar "Tarjeta de crédito" seleccionado:
+Efectivo
+Tarjeta de crédito
+PayPal
+-->
+<label for="metodo_pago">Método de pago: </label>
+<select name="metodo_pago">
+    <option value="EF">Efectivo</option>
+    <option value="TC" selected>Tarjeta de crédito</option>
+    <option value="PP">PayPal</option>
+</select>
+<br />
+
+<!-- 
+Enviar Pedido:
+La página tendrá un enlace para ver las condiciones del servicio. Dicho enlace llevará a una página html nueva con 5 parrafos hechos con algún tipo de generador de textos automática (Lorem ipsum). 
+Tendremos también un "checkbox" para que el usuario acepte las condiciones de servicio. -->
+<h2>Enviar Pedido:</h2>
+
+<a href="condiciones_servicio.html" target="_blank">Condiciones del Servicio</a>
+<br/>
+<label for="terminos">¿Acepta los terminos de uso? </label>
+<br/>
+<br/>
+He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+<br/>	
+<br/>
+
+<!-- 
+
+La página tendrá un botón para "Enviar Pedido".
+La página tendrá un botón para "Resetar la información".
+
+Otras tareas:
+Se debe comprobar que toda la información se envía en la URL cuando pulsamos el botón de envío (method="get")
+Comprobar que ocurre cuando en el formulario mandamos la información por "get" o por "post". Dicha información la mandamos mediante el atributo "method" de la etiqueta "form".
+
+    input type="reset", Se representa como un botón y cuando el usuario hace clic en él, 
+    se deja el formulario en su estado inicial (normalmente vacio)
+-->
+<input type="submit" value="Enviar Pedido" />
+<input type="reset" value="Resetar la información" />
+
+
+</form>
+
+</body>
+</html>

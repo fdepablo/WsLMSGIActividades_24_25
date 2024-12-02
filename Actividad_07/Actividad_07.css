@@ -1,0 +1,69 @@
+/* 
+Parte 2: Estilos CSS
+
+Utiliza selectores CSS para aplicar un estilo a los elementos. Los estilos deben de estar dentro de un fichero .css de tal manera que quede el html lo más limpio posible
+
+1. Cambia el color del texto a blanco en todos los elementos de lista del primer articulo de cada sección. Se debe hacer mediante selector de clase.
+2. Aplica un fondo de color gris claro (#f0f0f0) a todos los elementos de lista del primer articulo de cada sección. Se debe hacer mediante selector de clase.
+3. Cambia el color del texto a azulo en todos los elementos de lista del segundo articulo de cada sección. Se debe hacer mediante selector de clase.
+4. Aplica un fondo de color rojo a todos los elementos de lista del segundo articulo de cada sección. Se debe hacer mediante selector de clase.
+5. La cabecera de la página (<header>) tendrá un fondo negro y un color de letra de amarillo. Se debe hacer mediante un selector de etiqueta
+6. El pie de página (<footer>) tendrá un fondo azul oscuro y un tipo de letra blanco. Se debe hacer mediante un selector de etiqueta.
+7. Se debe hacer dos etiquetas más (a elegir por el alumno) donde se aplique un selector por id.
+8. Se debe de hacer dos etiquetas más (a elegir por el alumno) donde se aplique un selector por clase y por etiqueta combinado.
+*/
+
+.white {
+    color:white;
+    background-color: #393232;
+}
+
+.azul {
+    color:blue;
+    background-color:red;
+
+}
+
+header {
+    color:yellow;
+    background-color: black;
+}
+
+footer {
+    color:white;
+    background-color: darkblue;
+
+}
+
+#parrafo_01 {
+    color: darkcyan;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#parrafo_02 {
+    color:black;
+    text-align:right;
+    background-color:orange;
+}
+
+
+h2.rojo{
+	color:red;
+}
+
+h2.derecha{
+	text-align: right;
+}
+
+h2.fondoverde{
+	background-color: green;
+}
+
+h3.color1{
+	color:rgb(7, 107, 107);
+}
+
+h3.izquierda{
+	text-align: left;
+}
