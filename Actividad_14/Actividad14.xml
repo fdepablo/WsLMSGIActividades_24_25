@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="./Actividad14.xsd">
+    <Nombre>HPE</Nombre>
+    <NIF>Z1234567M</NIF>    
+    <Española>false</Española>
+    <Capital_Social moneda="EUROS">499990</Capital_Social>
+    <Direccion>
+        <Tipo_de_via>Plaza</Tipo_de_via>
+        <Nombre_de_via>Vicente Aleixandre, 1, Las Rozas</Nombre_de_via>
+        <CP>28232</CP>
+        <País>España</País>
+    </Direccion>
+    <Empleados>
+        <Empleado DNI="12345678M">
+            <Nombre>Ruben</Nombre>
+            <Apellido>Gonzalvez</Apellido>
+            <Apellido>Vargas</Apellido>
+            <Extranjero>true</Extranjero>
+            <Fecha_nacimiento>1990-02-03</Fecha_nacimiento>
+            <Salario>4500</Salario>
+            <Direccion>
+                <Direccion_Empleado>Avenida de la Vega 15, 28108, Alcobendas (Madrid)</Direccion_Empleado>
+                <Pais>Colombia</Pais>
+            </Direccion>
+            <estaCasado />
+        </Empleado>
+    </Empleados>
+</Empresa>

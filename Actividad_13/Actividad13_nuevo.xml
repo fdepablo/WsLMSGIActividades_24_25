@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="./Actividad13_01.xsd">
+  <nombre>Mundo Libros</nombre>
+  <seccion>
+    <libro>
+      <titulo>Luces de bohemia esperpento</titulo>
+      <autor>Ramón del Valle</autor>
+      <anio>2004</anio>
+      <resumen>Valle-Inclán escribió en 1920 esta obra con la que quedó inagurada una nueva manera de ver la realidad el Esperpento. Personajes exagerados y situaciones grotescas se suceden a lo largo de los dos días en los que el poeta ciego Max Estrella junto con su amigo Latino y el resto de los personajes nocturnos pululan por el Madrid más sórdido</resumen>
+      <editorial>
+        <nombre>Espasa-calpe</nombre>
+        <ciudad>Madrid</ciudad>
+      </editorial>
+    </libro>
+    <libro>
+      <titulo>La Tierra Baldía</titulo>
+      <autor>T. S. Eliot</autor>
+      <anio>2005</anio>
+      <resumen>Thomas Stearns Eliot era hijo de una familia de Nueva Inglaterra, cuyos orígenes de emigrantes ingleses se remontan a aquellos puritanos que en el siglo XVII colonizaron esa región de Norteamérica. </resumen>
+      <editorial>
+        <nombre>Ediciones Cátedra</nombre>
+        <ciudad>Madrid</ciudad>
+      </editorial>
+    </libro>
+  </seccion>
+  <seccion>
+    <libro>
+      <titulo>Los miserables</titulo>
+      <autor>Victor Hugo</autor>
+      <anio>1967</anio>
+      <resumen>Los miserables es una de las obras fundamentales de su autor, Víctor Hugo, y es considerada como una de las grandes novelas del siglo XIX</resumen>
+      <editorial>
+        <nombre>Círculo de Lectores</nombre>
+        <ciudad>Barcelona</ciudad>
+      </editorial>
+    </libro>
+  </seccion>
+  <seccion>
+    <libro>
+      <titulo>Los ríos profundos</titulo>
+      <autor>José María Arguedas</autor>
+      <resumen>La novela “Los ríos profundos” es una obra maestra de la literatura peruana. Arguedas, un destacado escritor y antropólogo, narra la historia de Ernesto, un joven mestizo que se enfrenta a la dualidad cultural entre su herencia indígena y su educación occidental. La prosa poética y la exploración de la identidad peruana hacen de esta novela una lectura imprescindible.</resumen>
+      <editorial>
+        <codigo>CADE3476</codigo>
+        <nombre>Losada</nombre>
+        <ciudad>Buenos Aires, Argentina</ciudad>
+      </editorial>
+    </libro>
+    <libro>
+      <titulo>Cien años de soledad.</titulo>
+      <autor>García Márquez, G.</autor>
+      <anio>1967</anio>
+      <resumen>Esta novela icónica narra la historia de la familia Buendía en el pueblo ficticio de Macondo. A través de múltiples generaciones, García Márquez explora temas como el amor, la soledad y la magia en un estilo literario único</resumen>
+      <editorial>
+        <nombre>Editorial Sudamericana</nombre>
+        <ciudad>Bogota</ciudad>
+      </editorial>
+    </libro>
+  </seccion>
+</biblioteca>

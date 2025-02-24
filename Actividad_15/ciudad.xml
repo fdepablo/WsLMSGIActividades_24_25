@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudad codigo="AB-12345" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="ciudad.xsd">
+    <nombre>Madrid</nombre>
+    <alcalde>
+        <nombre>Juan</nombre>
+        <apellidos>Perez</apellidos>
+        <telefono>+34123456789</telefono>
+        <correo>juan.perez@example.com</correo>
+    </alcalde>
+    <funcionarios>
+        <funcionario>
+            <nombre>Maria</nombre>
+            <fecha_nacimiento>01/01/1980</fecha_nacimiento>
+            <codigo_postal>28001</codigo_postal>
+            <contraseña>A12234545$</contraseña>
+            <cuenta_bancaria>ES1234 5678 1234</cuenta_bancaria>
+        </funcionario>
+        <funcionario>
+            <nombre>Carlos</nombre>
+            <fecha_nacimiento>15/05/1975</fecha_nacimiento>
+            <codigo_postal>28002</codigo_postal>
+            <contraseña>B34@</contraseña>
+            <cuenta_bancaria>ES2345 6789 2345</cuenta_bancaria>
+        </funcionario>
+    </funcionarios>
+</ciudad>

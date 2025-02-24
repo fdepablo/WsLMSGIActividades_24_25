@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa SYSTEM "Actividad13_02_XML_DTD.dtd">
+<Empresa>
+    <Nombre>Hewlett Packard Enterprise (HPE)</Nombre>
+    <NIF>Z1234567M</NIF>    
+    <Española>false</Española>
+    <Capital_Social>23739340.75</Capital_Social>
+    <Direccion_Empresa>
+        <Tipo_de_via>Calle</Tipo_de_via>
+        <Nombre_de_via>Vicente Aleixandre, 1, Las Rozas</Nombre_de_via>
+        <CP>28232</CP>
+        <Pais>España</Pais>
+    </Direccion_Empresa>
+    <Empleados>
+        <Empleado>
+            <Nombre>Ruben</Nombre>
+            <Apellido>Gonzalvez</Apellido>
+            <Apellido>Vargas</Apellido>
+            <DNI>M4353566F</DNI>
+            <Extranjero>true</Extranjero>
+            <Fecha_nacimiento>1990-02-03</Fecha_nacimiento>
+            <Salario>6500</Salario>
+            <Direccion>
+                <Direccion_Empleado>Avenida de la Vega 15, 28108, Alcobendas (Madrid)</Direccion_Empleado>
+                <Pais_Empleado>Colombia</Pais_Empleado>
+            </Direccion>
+        </Empleado>        
+    </Empleados>
+</Empresa>

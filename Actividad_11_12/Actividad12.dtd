@@ -1,0 +1,17 @@
+<!-- filepath: /c:/Users/UpgradeHub/Desktop/LMSGI/WsLMSGI/11_12_ActividadXML/Actividad12.dtd -->
+<!ELEMENT biblioteca (nombre,seccion+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT seccion (libro+)>
+<!ELEMENT libro (titulo,autor+,anio?,resumen?,editorial)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT editorial (codigo?,nombre,ciudad)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST biblioteca codigo ID "B_67">
+<!ATTLIST seccion pasillo CDATA #IMPLIED>
+<!ATTLIST seccion categoria (Novela | Ciencia_ficcion | Aventura | Historia) #REQUIRED>
+<!ATTLIST libro id ID #REQUIRED>
+ <!ENTITY tolkien "J.R.R Tolkien">

@@ -1,0 +1,57 @@
+<!DOCTYPE videojuego SYSTEM "videojuego.dtd">
+<videojuego id="V01">
+    <nombre>Final Fantasy VII</nombre>
+    <fecha_creacion>12/12/1997</fecha_creacion>
+    <nota>10</nota>
+    <programadores>
+        <programador id="P01">
+            <nombre>Agustin</nombre>
+            <apellidos>Ortega</apellidos>
+            <dni>12345678M</dni>
+            <fecha_de_nacimiento>12/12/1997</fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via>Calle</tipo_de_via>
+                <nombre_de_la_via>Gran Via</nombre_de_la_via>
+                <codigo_postal>28224</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+         <programador id="P02">
+            <nombre>Maria</nombre>
+            <apellidos>Gomez</apellidos>
+            <dni>87654321X</dni>
+            <fecha_de_nacimiento>23/05/1990</fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via>Avenida</tipo_de_via>
+                <nombre_de_la_via>Diagonal</nombre_de_la_via>
+                <codigo_postal>08018</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+        <programador id="P03">
+            <nombre>Carlos</nombre>
+            <apellidos>Lopez</apellidos>
+            <dni>11223344Z</dni>
+            <fecha_de_nacimiento>15/08/1985</fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via>Plaza</tipo_de_via>
+                <nombre_de_la_via>Mayor</nombre_de_la_via>
+                <codigo_postal>28013</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+    <compañia>Square</compañia>
+    <web>
+    <![CDATA[ 
+        <html>
+            <head>
+                <title>mi pagina web de ffvII</title>
+            </head>
+            <body>
+                <h1>Final Fantasy :) VII</h1>
+            </body>
+        </html>
+    ]]>
+    </web>
+</videojuego>
